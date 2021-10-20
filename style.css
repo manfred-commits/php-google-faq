@@ -30,8 +30,43 @@ ol:nth-child(1){
 /* HEADER RULES */
 /* /HEADER RULES */
 
-
-
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px 0;
+    border-bottom: 1px solid black;
+}
+header .col-left,
+header .col-right{
+    display: flex;
+    width: 50%;
+}
+header .col-left a{
+    padding: 5px;
+}
+header .col-left a h3{
+    font-weight: 600;
+}
+header .col-center{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+header .col-left a,
+header .col-center a{
+    text-decoration: none;
+    color: black;
+}
+header .col-center ul{
+    display: flex;
+}
+header .col-center ul li{
+    padding: 20px;
+}
+header .col-center ul li:first-child{
+    padding-left: 0;
+}
 /* MAIN RULES */
 
 main{

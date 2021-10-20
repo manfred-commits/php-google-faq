@@ -133,6 +133,37 @@
 </head>
 <body>
     <header>
+        <div class="col-left">
+            <img src="./googlelogo_clr_74x24px.svg" alt="google logo">
+            <a href="https://policies.google.com/">
+                <h3>Privacy e termini</h3>
+            </a>
+        </div>
+        <div class="col-right">
+            
+        </div>
+        <div class="col-center">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Introduzione</a>
+                    </li>
+                    <li>
+                        <a href="#">Norme sulla privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Termini di servizio</a>
+                    </li>
+                    <li>
+                        <a href="#">Tecnologie</a>
+                    </li>
+                    <li>
+                        <a href="#">Domande frequenti</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="container-main">
