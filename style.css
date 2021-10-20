@@ -14,8 +14,9 @@ ul{
 }
 h2{
     padding: 20px 0;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
+    color: #3c4043;
 }
 p{
     padding: 15px 0;
@@ -35,7 +36,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 20px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid lightgrey;
 }
 header .col-left,
 header .col-right{
@@ -47,6 +48,7 @@ header .col-left a{
 }
 header .col-left a h3{
     font-weight: 600;
+    font-size: 20px;
 }
 header .col-center{
     display: flex;
@@ -56,23 +58,44 @@ header .col-center{
 header .col-left a,
 header .col-center a{
     text-decoration: none;
-    color: black;
+    color: #3c4043;
 }
 header .col-center ul{
     display: flex;
 }
 header .col-center ul li{
-    padding: 20px;
+    padding: 10px 17px;
+    border-bottom: 3px solid transparent;
+    font-size: 15px;
+    font-weight: 600;
 }
 header .col-center ul li:first-child{
     padding-left: 0;
 }
+
+/* HEADER HOVER */
+header .col-center li:hover{
+    border-bottom: 3px solid #3367d6;
+    cursor: pointer;
+}
+header .col-center li:hover a{
+    color: #3367d6;
+}
+
+/* /HEADER HOVER */
+
+
+
 /* MAIN RULES */
 
 main{
-    width: 60%;
-    margin: auto;
+    width: 57%;
+    margin: 65px auto;
     text-align: justify;
+}
+main a{
+    text-decoration: none;
+    color: #3367d6;
 }
 
 /* /MAIN RULES */
