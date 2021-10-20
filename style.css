@@ -12,6 +12,9 @@ body{
 ul{
     list-style: none;
 }
+li{
+    font-size: 14px;
+}
 h2{
     font-size: 23px;
 }
@@ -113,6 +116,10 @@ main{
 main a{
     text-decoration: none;
     color: #3367d6;
+}
+main ol li{
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 /* /MAIN RULES */
