@@ -13,12 +13,18 @@ ul{
     list-style: none;
 }
 h2{
-    padding: 20px 0;
     font-size: 23px;
+}
+h2,h4{
+    padding: 20px 0;
     font-weight: 600;
-    color: #3c4043;
+    color: #3c4043
+}
+h4{
+    font-size: 18px;
 }
 p{
+    font-size: 14px;
     padding: 15px 0;
 }
 ol:nth-child(1){
@@ -37,11 +43,21 @@ header{
     flex-wrap: wrap;
     padding: 20px 20px 0;
     border-bottom: 2px solid lightgrey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    background-color: white;
 }
 header .col-left,
 header .col-right{
     display: flex;
     width: 50%;
+}
+header .col-left img{
+    object-fit: contain;
+    width: 75px;
 }
 header .col-left a{
     padding: 5px;
@@ -91,6 +107,7 @@ header .col-center li:hover a{
 main{
     width: 57%;
     margin: 65px auto;
+    margin-top: 190px;
     text-align: justify;
 }
 main a{
